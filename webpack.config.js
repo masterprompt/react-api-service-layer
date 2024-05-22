@@ -60,7 +60,6 @@ const configs = {
     new webpack.BannerPlugin(license),
     new ESLintPlugin({
       cache: false,
-      eslintPath: require.resolve('eslint'),
       resolvePluginsRelativeTo: __dirname,
       ignore: true,
       useEslintrc: true,

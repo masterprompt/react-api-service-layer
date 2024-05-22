@@ -27,6 +27,7 @@ module.exports = {
     },
   },
   rules: {
+    'comma-dangle': 'off',
     'react/jsx-filename-extension': 'off',
     'no-multiple-empty-lines': ["error", {
       max: 2,
